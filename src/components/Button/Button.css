@@ -1,0 +1,45 @@
+.tasks {
+  margin: 5px 0px;
+  position: relative;
+  left: 6%;
+}
+i {
+  padding: 15px;
+}
+p {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+.tasks .tasks-groups {
+  width: 90%;
+  padding: 3px 0px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-color: white;
+  border: none !important;
+}
+.button-body .button-description .text {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+.button-body .button-description .taskcount {
+  text-align: left;
+  font-weight: 100;
+}
+.tasks .button-body {
+  padding: 5px;
+  display: flex;
+}
+.tasks .button-body .more {
+  margin-left: auto;
+}
+.tasks .button-description {
+  position: relative;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
